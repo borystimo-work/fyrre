@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<style data-fls-preloader="true" rel="preload">
+		<style data-fls-preloader="false" rel="preload">
 			body>*:not(.fls-preloader) {
       opacity: 0;
       visibility: hidden;
@@ -20,8 +20,8 @@
 		<link rel="preload" href="./assets/fonts/GeneralSans-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1769049890215"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769049890215">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1770637015056"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1770637015056">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -67,9 +67,10 @@
 				</div>
 			</header>
 			<main class="page page--home">
+				<!-- hero -->
 				<section class="page__hero hero">
 					<div class="hero__container">
-						<img class="hero__title" src="./assets/img/hero/hero-title.svg" alt="Image">
+						<img loading="lazy" class="hero__title" src="./assets/img/hero/hero-title.svg" alt="art and life">
 						<div data-fls-marquee="" data-fls-marquee-pause="" data-fls-marquee-speed="300" data-fls-marquee-space="24">
 							<div>
 								<span>News Ticker+++</span>
@@ -112,12 +113,12 @@
 							<picture>
 								<source media="(max-width: 600px)" srcset="./assets/img/hero/art-600.webp" type="image/webp">
 								<source media="(max-width: 1200px)" srcset="./assets/img/hero/art-1200.webp" type="image/webp">
-								<img class="hero__image" alt="Image" src="./assets/img/hero/art.webp">
+								<img loading="lazy" class="hero__image" alt="hero Image" src="./assets/img/hero/art.webp">
 							</picture>
 						</figure>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
+				<!-- magazines-previews -->
 				<section class="page__magazines-previews magazines-previews">
 					<div class="magazines-previews__container">
 						<h2 class="visually-hidden">magazines previews</h2>
@@ -127,7 +128,7 @@
 									<article class="magazineitem__inner">
 										<figure class="magazineitem__picture">
 											<picture>
-												<img loading="lazy" class="magazineitem__image" alt="Image" src="./assets/img/magazine/01.webp">
+												<img loading="lazy" class="magazineitem__image" alt="cover" src="./assets/img/magazine/01.webp">
 											</picture>
 										</figure>
 										<div class="magazineitem__body">
@@ -167,7 +168,7 @@
 									<article class="magazineitem__inner">
 										<figure class="magazineitem__picture">
 											<picture>
-												<img loading="lazy" class="magazineitem__image" alt="Image" src="./assets/img/magazine/02.webp">
+												<img loading="lazy" class="magazineitem__image" alt="cover" src="./assets/img/magazine/02.webp">
 											</picture>
 										</figure>
 										<div class="magazineitem__body">
@@ -207,7 +208,7 @@
 									<article class="magazineitem__inner">
 										<figure class="magazineitem__picture">
 											<picture>
-												<img loading="lazy" class="magazineitem__image" alt="Image" src="./assets/img/magazine/03.webp">
+												<img loading="lazy" class="magazineitem__image" alt="cover" src="./assets/img/magazine/03.webp">
 											</picture>
 										</figure>
 										<div class="magazineitem__body">
@@ -247,7 +248,7 @@
 									<article class="magazineitem__inner">
 										<figure class="magazineitem__picture">
 											<picture>
-												<img loading="lazy" class="magazineitem__image" alt="Image" src="./assets/img/magazine/04.webp">
+												<img loading="lazy" class="magazineitem__image" alt="cover" src="./assets/img/magazine/04.webp">
 											</picture>
 										</figure>
 										<div class="magazineitem__body">
@@ -287,7 +288,7 @@
 									<article class="magazineitem__inner">
 										<figure class="magazineitem__picture">
 											<picture>
-												<img loading="lazy" class="magazineitem__image" alt="Image" src="./assets/img/magazine/05.webp">
+												<img loading="lazy" class="magazineitem__image" alt="cover" src="./assets/img/magazine/05.webp">
 											</picture>
 										</figure>
 										<div class="magazineitem__body">
@@ -327,7 +328,7 @@
 									<article class="magazineitem__inner">
 										<figure class="magazineitem__picture">
 											<picture>
-												<img loading="lazy" class="magazineitem__image" alt="Image" src="./assets/img/magazine/06.webp">
+												<img loading="lazy" class="magazineitem__image" alt="cover" src="./assets/img/magazine/06.webp">
 											</picture>
 										</figure>
 										<div class="magazineitem__body">
@@ -367,7 +368,7 @@
 									<article class="magazineitem__inner">
 										<figure class="magazineitem__picture">
 											<picture>
-												<img loading="lazy" class="magazineitem__image" alt="Image" src="./assets/img/magazine/07.webp">
+												<img loading="lazy" class="magazineitem__image" alt="cover" src="./assets/img/magazine/07.webp">
 											</picture>
 										</figure>
 										<div class="magazineitem__body">
@@ -416,7 +417,7 @@
 								<a href="magazinesingle.html" class="podcastitem__inner">
 									<figure class="podcastitem__picture">
 										<picture>
-											<img loading="lazy" class="podcastitem__image" alt="Image" src="./assets/img/podcast/06.webp">
+											<img loading="lazy" class="podcastitem__image" alt="cover" src="./assets/img/podcast/06.webp">
 										</picture>
 										<div class="podcastitem__content content-podcastitem">
 											<div class="content-podcastitem__header">
@@ -480,7 +481,7 @@
 						</aside>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
+				<!-- podcast-preview -->
 				<section class="page__podcast-preview podcast-preview">
 					<div class="podcast-preview__container">
 						<div data-fls-headbutton="" data-fls-watcher="" class="headbutton">
@@ -499,7 +500,7 @@
 								<a href="podcastsingle.html" class="podcastitem__inner">
 									<figure class="podcastitem__picture">
 										<picture>
-											<img loading="lazy" class="podcastitem__image" alt="Image" src="./assets/img/podcast/05.webp">
+											<img loading="lazy" class="podcastitem__image" alt="cover" src="./assets/img/podcast/05.webp">
 										</picture>
 										<div class="podcastitem__content content-podcastitem">
 											<div class="content-podcastitem__header">
@@ -531,7 +532,7 @@
 								<a href="podcastsingle.html" class="podcastitem__inner">
 									<figure class="podcastitem__picture">
 										<picture>
-											<img loading="lazy" class="podcastitem__image" alt="Image" src="./assets/img/podcast/04.webp">
+											<img loading="lazy" class="podcastitem__image" alt="cover" src="./assets/img/podcast/04.webp">
 										</picture>
 										<div class="podcastitem__content content-podcastitem">
 											<div class="content-podcastitem__header">
@@ -563,7 +564,7 @@
 								<a href="podcastsingle.html" class="podcastitem__inner">
 									<figure class="podcastitem__picture">
 										<picture>
-											<img loading="lazy" class="podcastitem__image" alt="Image" src="./assets/img/podcast/03.webp">
+											<img loading="lazy" class="podcastitem__image" alt="cover" src="./assets/img/podcast/03.webp">
 										</picture>
 										<div class="podcastitem__content content-podcastitem">
 											<div class="content-podcastitem__header">
@@ -594,7 +595,7 @@
 						</div>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
+				<!-- authors-preview -->
 				<section class="page__authors-preview authors-preview">
 					<div class="authors-preview__container">
 						<div data-fls-headbutton="" data-fls-watcher="" class="headbutton">
@@ -613,7 +614,7 @@
 								<a href="authorsingle.html" class="authoritem__inner">
 									<figure class="authoritem__picture">
 										<picture>
-											<img loading="lazy" class="authoritem__image" alt="Image" src="./assets/img/authors/01.webp">
+											<img loading="lazy" class="authoritem__image" alt="avatar" src="./assets/img/authors/01.webp">
 										</picture>
 									</figure>
 									<div class="authoritem__body">
@@ -635,7 +636,7 @@
 								<a href="authorsingle.html" class="authoritem__inner">
 									<figure class="authoritem__picture">
 										<picture>
-											<img loading="lazy" class="authoritem__image" alt="Image" src="./assets/img/authors/02.webp">
+											<img loading="lazy" class="authoritem__image" alt="avatar" src="./assets/img/authors/02.webp">
 										</picture>
 									</figure>
 									<div class="authoritem__body">
@@ -657,7 +658,7 @@
 								<a href="authorsingle.html" class="authoritem__inner">
 									<figure class="authoritem__picture">
 										<picture>
-											<img loading="lazy" class="authoritem__image" alt="Image" src="./assets/img/authors/03.webp">
+											<img loading="lazy" class="authoritem__image" alt="avatar" src="./assets/img/authors/03.webp">
 										</picture>
 									</figure>
 									<div class="authoritem__body">
@@ -679,7 +680,7 @@
 								<a href="authorsingle.html" class="authoritem__inner">
 									<figure class="authoritem__picture">
 										<picture>
-											<img loading="lazy" class="authoritem__image" alt="Image" src="./assets/img/authors/04.webp">
+											<img loading="lazy" class="authoritem__image" alt="avatar" src="./assets/img/authors/04.webp">
 										</picture>
 									</figure>
 									<div class="authoritem__body">
@@ -701,7 +702,7 @@
 								<a href="authorsingle.html" class="authoritem__inner">
 									<figure class="authoritem__picture">
 										<picture>
-											<img loading="lazy" class="authoritem__image" alt="Image" src="./assets/img/authors/05.webp">
+											<img loading="lazy" class="authoritem__image" alt="avatar" src="./assets/img/authors/05.webp">
 										</picture>
 									</figure>
 									<div class="authoritem__body">
@@ -723,7 +724,7 @@
 								<a href="authorsingle.html" class="authoritem__inner">
 									<figure class="authoritem__picture">
 										<picture>
-											<img loading="lazy" class="authoritem__image" alt="Image" src="./assets/img/authors/06.webp">
+											<img loading="lazy" class="authoritem__image" alt="avatar" src="./assets/img/authors/06.webp">
 										</picture>
 									</figure>
 									<div class="authoritem__body">
