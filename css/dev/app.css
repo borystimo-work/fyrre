@@ -1241,12 +1241,12 @@ textarea.input {
   align-items: center;
   gap: 0.5rem;
 }
-.magazine {
+.magazine-article {
   max-width: 62.5rem;
   margin: 0 auto;
   display: flex;
 }
-.magazine {
+.magazine-article {
   row-gap: 1.875rem;
 }
 .content-magazine__text > * {
@@ -1595,7 +1595,7 @@ textarea.input {
   .page--magazinesingle .header-block--row {
     column-gap: 1.25rem;
   }
-  .magazine {
+  .magazine-article {
     column-gap: 1.875rem;
   }
   .magazines-previews__items {
@@ -1772,7 +1772,7 @@ textarea.input {
   .authoritem--main .info-authoritem {
     justify-content: center;
   }
-  .magazine {
+  .magazine-article {
     flex-direction: column;
   }
   .header-magazine {
@@ -2522,7 +2522,7 @@ textarea.input {
   .page--magazinesingle .header-block--row {
     column-gap: clamp( 1.25rem , -3.17105263158125rem  +  9.2105263158vw , 6.5rem );
   }
-  .magazine {
+  .magazine-article {
     column-gap: clamp( 1.875rem , 0.0855263157875rem  +  3.7280701754vw , 4rem );
   }
   .magazines-previews__items {
@@ -2584,10 +2584,10 @@ textarea.input {
   .page--magazinesingle .header-block--row .header-block__content {
     flex: 1 1 44.25rem;
   }
-  .magazine__profile {
+  .magazine-article__profile {
     flex: 1 1 20rem;
   }
-  .magazine__content {
+  .magazine-article__content {
     flex: 1 1 38.5rem;
   }
 }@media (min-width: 62em) and (max-width: 105em){
@@ -2947,7 +2947,7 @@ textarea.input {
   .page--magazinesingle .header-block--row {
     column-gap: 6.5rem;
   }
-  .magazine {
+  .magazine-article {
     column-gap: 4rem;
   }
   .magazines-previews__items {
